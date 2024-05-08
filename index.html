@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modeo JS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Tabela IMC</h1>
+        <div id="divPai">
+            <div id="div1">
+                <H3>IMC</H3>
+                <p>Menos do que 18,5</p>
+                <p>Entre 18,5 e 24,9</p>
+                <p>Entre 25 e 29,9</p>
+                <p>Entre 30 e 34,9</p>
+                <p>Entre 35 e 39,9</p>
+                <p>Mais do que 40</p>
+            </div>
+            <div id="div2">
+                <H3>Resultado</H3>
+                <p>Abaixo do peso</p>
+                <p>Peso normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade grau 1</p>
+                <p>Obesidade grau 2</p>
+                <p>Obesidade grau 3</p>
+            </div>
+        </div>
+        <h1>Calcule seu IMC</h1>
+        <!--
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content here', making it look like readable English.
+        </p>
+    -->
+        <form action="/" id="form1" method="post">
+            <label for="input_peso">Peso:</label>
+            <input type="text" id="input_peso">
+
+            <label for="input_altura">Altura:</label>
+            <input type="text" id="input_altura">
+
+            <button type="submit">Calcular</button>
+            <!--
+                <label for="input_name">Digite seu nome</label>
+                <input type="text" id="input_name">
+
+                <label for="input_password">Digite sua senha</label>
+                <input type="text" id="input_password">
+
+                <label for="input_mail">Digite seu e-mail</label>
+                <input type="text" id="input_mail">
+
+                <label for="input_number">Digite seu número</label>
+                <input type="text" id="input_number">
+
+                <button>Enviar</button>
+            -->
+        </form>
+
+        <div id="result"></div>
+
+    </section>
+
+    <script src="./assets/src/main.js"></script>
+</body>
+
+</html>
